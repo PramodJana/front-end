@@ -6,30 +6,55 @@
   </head>
   <body>
     <header>
-          <h1>Best News Ever!</h1>
-          <h3>We don't care if it's accurate. We take care that it's the Best!!!</h3>
+          <h1>Best Pizza Ever!</h1>
+          <h3>Come and get some, homie.</h3>
       </header>
 
 
       <main>
-      <section>
-        <h2>About Me</h2>
-        <p>We've spent years in the news industry, and have found that, readers
-        prefer the best news, not the accurate news.</p>
-      </section>
-      <br/><br/>
-
-      <section>
-        <article>
-          <img src="html5.jpg"/>
-        <a href="#">  <h3>Html5 saves the day</h3></a>
-          <p>Since its introduction, there's been less div soup</p>
-        </article>
-      </section>
-      <br/><br/>
 
       <section id="contact-form">
+        <h2>Place Order</h2>
         <form class="" action="place-order.php" method="post">
+          <h4>Delivery</h4>
+          <input type="radio" name="deliveryMethod" value="delivery"> Delivery <br />
+          <input type="radio" name="deliveryMethod" value="pickup"> Pickup <br />
+
+
+
+
+          <h4>Address</h4>
+          <input type="text" name="Address1" value="" placeholder="Address Line 1" class="lg-input">
+          <br />
+          <input type="text" name="Address2" value="" placeholder="Address Line 2" class="lg-input">
+          <br />
+
+          <input type="text" name="city" value="" placeholder="city" class="sm-input">
+          <input type="text" name="state" value="" placeholder="state" class="sm-input">
+          <br />
+
+          <input type="text" name="Zip code" value="" placeholder="Zip code" class="sm-input">
+          <br/>
+          <br/>
+
+          <h4>Size</h4>
+          <select class="" name="Size">
+            <option value="12">12" - $13.99</option>
+            <option value="16">16" - $16.99</option>
+            <option value="18">18" - $19.99</option>
+            <option value="72">72" - $149.99</option>
+          </select>
+
+
+          <h4>Ingredients</h4>
+          <input type="checkbox" name="Ingredients" value="Pepperoni">Pepperoni<br />
+          <input type="checkbox" name="Ingredients" value="salani">salani<br />
+          <input type="checkbox" name="Ingredients" value="bacon">bacon<br />
+          <input type="checkbox" name="Ingredients" value="sausage">sausage<br />
+          <input type="checkbox" name="Ingredients" value="onion">onion<br />
+          <input type="checkbox" name="Ingredients" value="Peppers">Peppers<br /><br />
+
+          <button type="submit" name="button">Place Order</button><br />
 
         </form>
       </section>
