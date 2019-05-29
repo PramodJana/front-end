@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body
 {
   font-family: 'Lobster', cursive;
   font-weight: 300 !important;
   margin: 0px;
+  text-shadow: 1px 1px 2px red;
 }
 
 body h1
 {
   font-weight: 300;
   margin: 20px 30px;
+}
+
+#site-title
+{
+  font-family: 'Roboto', sans-serif;
 }
 
 #main-header
@@ -31,6 +38,7 @@ article
   display: inline-block;
   border: 1px solid black;
   padding: 10px;
+  box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -46,4 +54,14 @@ article img
     width: 100%;
     background-size: cover !important;
     background-position: center !important;
+}
+
+.more-link
+{
+  font-style: italic;
+  text-decoration: none;
+}
+
+p{
+
 }
