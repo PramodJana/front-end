@@ -6,7 +6,7 @@ body
   font-family: 'Lobster', cursive;
   font-weight: 300 !important;
   margin: 0px;
-  text-shadow: 1px 1px 2px red;
+
 }
 
 body h1
@@ -42,6 +42,7 @@ article
 
 }
 
+
 article img
 {
   width: 100%;
@@ -51,9 +52,10 @@ article img
 .article-image
 {
     height: 200px;
-    width: 100%;
+    width: 200px;
     background-size: cover !important;
     background-position: center !important;
+  border-radius: 100%;
 }
 
 .more-link
@@ -62,6 +64,31 @@ article img
   text-decoration: none;
 }
 
-p{
+a:hover
+{
+  color: green;
+}
 
+.my-input
+{
+  display: block;
+  width: 90%;
+  margin:10px;
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 30px;
+
+}
+
+.my-input:focus
+{
+  background: gold;
+  outline: none;
+  border: 1px solid black;
+
+}
+
+article:active
+{
+  opacity: .4;
 }
