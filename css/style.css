@@ -5,7 +5,7 @@ body
 {
   font-family: 'Lobster', cursive;
   font-weight: 300 !important;
-  margin: 0px;
+
 
 }
 
@@ -23,7 +23,23 @@ body h1
 #main-header
 {
   border-bottom:2px solid black;
+  position: relative;
+  width:100%;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0px;
+  left: 0px;
 }
+
+/* #main-header ::before
+{
+  content : "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  top: 0px;
+} */
 
 #top-stories
 {
@@ -91,4 +107,12 @@ a:hover
 article:active
 {
   opacity: .4;
+}
+
+.my-text
+{
+  max-height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border:2px solid black;
 }
