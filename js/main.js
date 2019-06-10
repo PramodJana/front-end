@@ -1,6 +1,9 @@
+var myAge = 21;
 
-var welcome_message= "This is a welcome messege stored under variable welcome_message";
+alert("My age is "+ myAge);
 
-alert(welcome_message);
+myAge = 22;
+
+alert("Next Year my age will be "+ myAge);
 
 console.log("this is log;");
