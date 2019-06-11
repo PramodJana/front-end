@@ -1,9 +1,24 @@
-var myAge = 21;
 
-alert("My age is "+ myAge);
+var isPremiumUser= false;
 
-myAge = 22;
+if(isPremiumUser== true)
+{
+  alert("Thanks you are a loyal customer");
+}
+else {
+  alert("You should subscribe to our premium account");
+}
 
-alert("Next Year my age will be "+ myAge);
 
-console.log("this is log;");
+var myAge =21;
+
+if(myAge<6)
+{
+  alert("you are a child");
+}
+else if (myAge>6 && myAge<19) {
+  alert("You are a teenager");
+}
+else {
+  alert("You are an adult");
+}
