@@ -1,14 +1,10 @@
-// function myfunction()
-// {
-//   alert("My name is Pramod Jana");
-// }
-//
-// myfunction();
+var btn=document.getElementById("go-button");
 
-function printName(name,age=21)
+function buttonClicked()
 {
-  console.log("Name is",name,"Age is",age);
+  console.log("Button Clicked");
+  btn.removeEventListener("click",buttonClicked);
+  document.getElementById("text").innerHTML="Dont do it";
 }
 
-printName("Pramod Jana");
-printName("Sia",20);
+btn.addEventListener("click", buttonClicked);
