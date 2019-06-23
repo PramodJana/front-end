@@ -15,9 +15,22 @@ hobbies.push("flirting");
 
 hobbies.push("archiry");
 
-hobbies.forEach(function(item,index)
+// hobbies.forEach(function(item,index)
+// {
+//   document.write("i like ", index ," ", item, "<br />");
+// })
+
+if(hobbies.indexOf("Listening to kavi sammelan")>-1)
 {
-  document.write("i like ", index ," ", item, "<br />");
-})
+  document.write("I like to listen to kavi sammelan <br />");
+}
+
+if(hobbies.indexOf("PUBG")>-1)
+{
+
+}
+else {
+  document.write("i donn't play PUBG");
+}
 
 btn.addEventListener("click", buttonClicked);
