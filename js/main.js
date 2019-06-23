@@ -15,4 +15,9 @@ hobbies.push("flirting");
 
 hobbies.push("archiry");
 
+hobbies.forEach(function(item,index)
+{
+  document.write("i like ", index ," ", item, "<br />");
+})
+
 btn.addEventListener("click", buttonClicked);
