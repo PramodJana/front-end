@@ -85,7 +85,7 @@ a:hover
   color: green;
 }
 
-.my-input
+.my-input, .my-textarea
 {
   display: block;
   width: 90%;
@@ -96,13 +96,13 @@ a:hover
 
 }
 
-.my-input:focus
+/* .my-input:focus
 {
   background: gold;
   outline: none;
   border: 1px solid black;
 
-}
+} */
 
 article:active
 {
